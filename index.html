@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chestionar TCE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar" aria-label="Statistici chestionar">
+    <div class="brand-cell">
+      <div class="seal" aria-hidden="true">TCE</div>
+    </div>
+    <button class="mode-tab active" type="button" data-mode="learn">Invatare</button>
+    <button class="mode-tab" type="button" data-mode="exam">Chestionar</button>
+    <div class="stat-cell"><strong id="stat-initial">0</strong><span>Intrebari initiale</span></div>
+    <div class="stat-cell"><strong id="stat-left">0</strong><span>Intrebari ramase</span></div>
+    <div class="timer-cell" id="stat-time">30 : 00</div>
+    <div class="stat-cell good"><strong id="stat-correct">0</strong><span>Raspunsuri corecte</span></div>
+    <div class="stat-cell bad"><strong id="stat-wrong">0</strong><span>Raspunsuri gresite</span></div>
+  </header>
+
+  <main class="app-shell">
+    <section class="quiz-panel" aria-live="polite">
+      <div class="question-meta">
+        <span id="mode-label">Mod invatare</span>
+        <span id="question-index">1 / 139</span>
+      </div>
+      <h1 id="question-text"></h1>
+      <p class="pdf-note hidden" id="pdf-note">Formula a fost extrasa imperfect din PDF. Verifica varianta originala daca apare la examen.</p>
+      <div class="answer-layout">
+        <div class="answers" id="answers"></div>
+        <aside class="side-panel">
+          <div class="score-card">
+            <span>Nota curenta</span>
+            <strong id="grade-preview">1.00</strong>
+          </div>
+          <div class="progress-grid" id="question-grid" aria-label="Lista intrebari"></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="actionbar">
+    <button type="button" class="ghost" id="back-btn">Inapoi</button>
+    <button type="button" class="ghost" id="later-btn">Raspunde mai tarziu</button>
+    <button type="button" class="secondary" id="change-btn">Modifica raspunsul</button>
+    <button type="button" class="primary" id="submit-btn">Trimite raspunsul</button>
+    <button type="button" class="primary hidden" id="next-btn">Urmatoarea</button>
+  </footer>
+
+  <div class="result-modal hidden" id="result-modal" role="dialog" aria-modal="true" aria-labelledby="result-title">
+    <div class="result-card">
+      <h2 id="result-title">Rezultat chestionar</h2>
+      <p id="result-summary"></p>
+      <div class="result-actions">
+        <button type="button" class="secondary" id="review-btn">Revizuire greseli</button>
+        <button type="button" class="primary" id="restart-btn">Chestionar nou</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
