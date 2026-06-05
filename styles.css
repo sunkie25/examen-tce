@@ -171,6 +171,24 @@ h1 {
   line-height: 1.45;
   overflow-wrap: anywhere;
 }
+.answer-text.has-answer-image {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.answer-image {
+  display: block;
+  max-width: 100%;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.answer-image-fallback {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .answer-btn.selected {
   border-color: var(--blue);
   box-shadow: 0 0 0 2px rgba(47, 110, 179, 0.18);

@@ -1096,7 +1096,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "a"
+      "b"
     ]
   },
   {
@@ -1146,7 +1146,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "d"
+      "c"
     ]
   },
   {
@@ -1221,7 +1221,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "a"
+      "d"
     ]
   },
   {
@@ -1346,7 +1346,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "c"
+      "a"
     ]
   },
   {
@@ -1421,7 +1421,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "a"
+      "c"
     ]
   },
   {
@@ -1671,7 +1671,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "a"
+      "d"
     ]
   },
   {
@@ -1771,7 +1771,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "a"
+      "c"
     ]
   },
   {
@@ -1780,25 +1780,24 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "epsilon zero (permitivitatea electrica a vidului)"
+        "text": "μ"
       },
       {
         "id": "b",
-        "text": "miu zero (permeabilitatea magnetica a vidului)"
+        "text": "μ₀"
       },
       {
         "id": "c",
-        "text": "conductivitatea electrica"
+        "text": "ε₀"
       },
       {
         "id": "d",
-        "text": "rezistivitatea electrica"
+        "text": "ε"
       }
     ],
     "correct": [
       "c"
-    ],
-    "needsPdfReview": true
+    ]
   },
   {
     "id": 73,
@@ -1852,29 +1851,28 @@ const QUESTIONS = [
   },
   {
     "id": 75,
-    "question": "Cum se scrie corect legea fluxului electric?",
+    "question": "Cum se scrie corect legea fluxului electric? (dev note: toate sunt de suprafață insă nu apare cercul in mijloc csf, site cringe)",
     "options": [
       {
         "id": "a",
-        "text": "Formula din PDF - varianta A - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/s1PcBSw.png]"
       },
       {
         "id": "b",
-        "text": "Formula din PDF - varianta B - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/7iHhEGk.png]"
       },
       {
         "id": "c",
-        "text": "Formula din PDF - varianta C - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/4ILlpWC.png]"
       },
       {
         "id": "d",
-        "text": "Formula din PDF - varianta D - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/m9Ebz6A.png]"
       }
     ],
     "correct": [
-      "c"
-    ],
-    "needsPdfReview": true
+      "d"
+    ]
   },
   {
     "id": 76,
@@ -1882,25 +1880,25 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "Formula din PDF - varianta A - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/0coU7jO.png]"
       },
       {
         "id": "b",
-        "text": "Formula din PDF - varianta B - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/nFETEhr.png]"
       },
       {
         "id": "c",
-        "text": "Formula din PDF - varianta C - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/HaBA2mg.png]"
       },
       {
         "id": "d",
-        "text": "Formula din PDF - varianta D - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/fYr30v7.png]"
       }
     ],
     "correct": [
       "d"
     ],
-    "needsPdfReview": true
+    "needsPdfReview": false
   },
   {
     "id": 77,
@@ -1924,7 +1922,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "c"
+      "a"
     ]
   },
   {
@@ -1933,25 +1931,25 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "Formula din PDF - varianta A - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/7sfCof0.png]"
       },
       {
         "id": "b",
-        "text": "Formula din PDF - varianta B - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/NohySD7.png]"
       },
       {
         "id": "c",
-        "text": "Formula din PDF - varianta C - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/I0fomWB.png]"
       },
       {
         "id": "d",
-        "text": "Formula din PDF - varianta D - AI-ul nu a putut recunoaşte corect formula."
+        "text": "[image=https://i.imgur.com/yIwOeen.png]"
       }
     ],
     "correct": [
       "d"
     ],
-    "needsPdfReview": true
+    "needsPdfReview": false
   },
   {
     "id": 79,
@@ -1959,23 +1957,23 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "0.4"
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}10]"
       },
       {
         "id": "b",
-        "text": "0.4 x 10 la puterea -4"
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}0.4&space;\\times&space;10^{-4}]"
       },
       {
         "id": "c",
-        "text": "0.4 x 10 la puterea -7"
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}0.4&space;\\times&space;10^{-7}]"
       },
       {
         "id": "d",
-        "text": "0.4 x 10 la puterea 2"
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}0.4&space;\\times&space;10^{2}]"
       }
     ],
     "correct": [
-      "c"
+      "b"
     ],
     "needsPdfReview": true
   },
@@ -1985,25 +1983,25 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "rho"
+        "text": "ρ"
       },
       {
         "id": "b",
-        "text": "miu (permeabilitatea magnetica)"
+        "text": "μ"
       },
       {
         "id": "c",
-        "text": "sigma"
+        "text": "σ"
       },
       {
         "id": "d",
-        "text": "epsilon"
+        "text": "ε"
       }
     ],
     "correct": [
       "b"
     ],
-    "needsPdfReview": true
+    "needsPdfReview": false
   },
   {
     "id": 81,
@@ -2036,25 +2034,25 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "J = sigma E"
+        "text": "[image=https://i.imgur.com/7UP0Z5q.png]"
       },
       {
         "id": "b",
-        "text": "D = epsilon zero E"
+        "text": "[image=https://i.imgur.com/hrW0gUr.png]"
       },
       {
         "id": "c",
-        "text": "H = B / miu"
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}H=\\mu&space;B]"
       },
       {
         "id": "d",
-        "text": "B = miu H"
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}\\overrightarrow{D}=\\varepsilon_{0}\\overrightarrow{E}]"
       }
     ],
     "correct": [
       "b"
     ],
-    "needsPdfReview": true
+    "needsPdfReview": false
   },
   {
     "id": 83,
@@ -2153,7 +2151,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "c"
+      "b"
     ]
   },
   {
@@ -3287,19 +3285,19 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "175 m/s2."
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}175&space;m/s^{2}]"
       },
       {
         "id": "b",
-        "text": "175 1016 m/s2."
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}175&space;\\times&space;10^{16}&space;m/s^{2}]"
       },
       {
         "id": "c",
-        "text": "175 10-10 m/s2."
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}175&space;\\times&space;10^{-10}&space;m/s^{2}]"
       },
       {
         "id": "d",
-        "text": "175 10 -16 m/s2."
+        "text": "[image=https://latex.codecogs.com/png.image?\\LARGE&space;\\dpi{110}175&space;\\times&space;10^{-16}&space;m/s^{2}]"
       }
     ],
     "correct": [

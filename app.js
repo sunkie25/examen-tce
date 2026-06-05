@@ -94,6 +94,42 @@ function gradeFromCorrect(correct) {
   return Math.min(10, 1 + correct * (9 / EXAM_SIZE));
 }
 
+function renderOptionText(target, option) {
+  const imageMatch = option.text.trim().match(/^\[image=([^\]]+)\]$/);
+  const imageUrl = imageMatch?.[1]?.trim();
+
+  if (!imageUrl) {
+    target.textContent = option.text;
+    return;
+  }
+
+  try {
+    const parsedUrl = new URL(imageUrl, window.location.href);
+    if (!["http:", "https:"].includes(parsedUrl.protocol)) throw new Error("Unsupported image protocol");
+
+    const image = document.createElement("img");
+    image.className = "answer-image";
+    image.src = parsedUrl.href;
+    image.alt = `Varianta ${option.id.toUpperCase()}`;
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.referrerPolicy = "no-referrer";
+    image.addEventListener("error", () => {
+      const fallback = document.createElement("a");
+      fallback.className = "answer-image-fallback";
+      fallback.href = parsedUrl.href;
+      fallback.target = "_blank";
+      fallback.rel = "noopener noreferrer";
+      fallback.textContent = "Deschide imaginea";
+      target.replaceChildren(fallback);
+    });
+    target.classList.add("has-answer-image");
+    target.appendChild(image);
+  } catch {
+    target.textContent = option.text;
+  }
+}
+
 function setMode(mode) {
   state.mode = mode;
   state.selected = new Set();
@@ -199,7 +235,7 @@ function renderQuestion() {
     if (showSolution && question.correct.includes(option.id)) button.classList.add("correct");
     if (showSolution && state.selected.has(option.id) && !question.correct.includes(option.id)) button.classList.add("wrong");
     button.innerHTML = `<span class="answer-letter">${option.id.toUpperCase()}</span><span class="answer-text"></span>`;
-    button.querySelector(".answer-text").textContent = option.text;
+    renderOptionText(button.querySelector(".answer-text"), option);
     button.addEventListener("click", () => toggleAnswer(option.id));
     els.answers.appendChild(button);
   }
