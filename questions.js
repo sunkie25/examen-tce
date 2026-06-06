@@ -1221,7 +1221,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "d"
+      "a"
     ]
   },
   {
@@ -1496,7 +1496,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "d"
+      "a"
     ]
   },
   {
