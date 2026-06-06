@@ -496,7 +496,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "c"
+      "d"
     ]
   },
   {
@@ -1346,7 +1346,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "a"
+      "c"
     ]
   },
   {
@@ -1896,7 +1896,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "d"
+      "a"
     ],
     "needsPdfReview": false
   },
@@ -1975,7 +1975,7 @@ const QUESTIONS = [
     "correct": [
       "b"
     ],
-    "needsPdfReview": true
+    "needsPdfReview": false
   },
   {
     "id": 80,
@@ -2497,7 +2497,7 @@ const QUESTIONS = [
       },
       {
         "id": "d",
-        "text": "Tensiunile sunt mici sș sarcina implicată este mică."
+        "text": "Tensiunile pot fi mari, dar sarcina implicată este mică."
       }
     ],
     "correct": [
@@ -3101,7 +3101,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "d"
+      "b"
     ]
   },
   {
