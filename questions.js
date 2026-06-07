@@ -230,7 +230,7 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "Perpendicular pe planul tablei cu sensul intră în tablă."
+        "text": "Perpendicular pe planul tablei cu sensul care intră în tablă."
       },
       {
         "id": "b",
@@ -238,7 +238,7 @@ const QUESTIONS = [
       },
       {
         "id": "c",
-        "text": "Perpendicular pe planul tablei cu sensul iese din tablă."
+        "text": "Perpendicular pe planul tablei cu sensul care iese din tablă."
       },
       {
         "id": "d",
@@ -496,7 +496,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "d"
+      "c"
     ]
   },
   {
@@ -605,23 +605,23 @@ const QUESTIONS = [
     "options": [
       {
         "id": "a",
-        "text": "Perpendicular pe planul tablei cu sensul intră în tablă."
+        "text": "Perpendicular pe planul tablei cu sensul care intră în tablă."
       },
       {
         "id": "b",
-        "text": "Perpendicular pe planul tablei cu sensul iese din tablă."
+        "text": "Perpendicular pe planul tablei cu sensul care iese din tablă."
       },
       {
         "id": "c",
-        "text": "La un unghi de 45 grade intră în tablă"
+        "text": "La un unghi de 45 grade care intră în tablă"
       },
       {
         "id": "d",
-        "text": "La un unghi de 45 grade iese din tablă"
+        "text": "La un unghi de 45 grade care iese din tablă"
       }
     ],
     "correct": [
-      "a"
+      "b"
     ]
   },
   {
@@ -1346,7 +1346,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "c"
+      "a"
     ]
   },
   {
@@ -3101,7 +3101,7 @@ const QUESTIONS = [
       }
     ],
     "correct": [
-      "b"
+      "d"
     ]
   },
   {
